@@ -1,4 +1,7 @@
 # File-Zipper-Using-Huffman-Coding
+
+https://youtu.be/RfYf2IMNDo0-For Explanation- Huffman Coding C++
+
 Huffman Coding is a technique of compressing data to reduce its size without losing any of the details. It was first developed by David Huffman.Huffman Coding is generally useful to compress the data in which there are frequently occurring characters.
 How Huffman Coding works?
 Suppose the string below is to be sent over a network.
