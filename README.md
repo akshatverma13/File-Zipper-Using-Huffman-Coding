@@ -1,12 +1,11 @@
 # File-Zipper-Using-Huffman-Coding
-Huffman Coding is a technique of compressing data to reduce its size without losing any of the details. It was first developed by David Huffman.  Huffman Coding is generally useful to compress the data in which there are frequently occurring characters.
+Huffman Coding is a technique of compressing data to reduce its size without losing any of the details. It was first developed by David Huffman.Huffman Coding is generally useful to compress the data in which there are frequently occurring characters.
 How Huffman Coding works?
 Suppose the string below is to be sent over a network.
 ![image](https://user-images.githubusercontent.com/93857300/216992358-c1d58c68-4edb-4366-a1fd-5a4de27c21af.png)
+
 Each character occupies 8 bits. There are a total of 15 characters in the above string. Thus, a total of 8 * 15 = 120 bits are required to send this string.
-
 Using the Huffman Coding technique, we can compress the string to a smaller size.
-
 Huffman coding first creates a tree using the frequencies of the character and then generates code for each character.
 
 Once the data is encoded, it has to be decoded. Decoding is done using the same tree.
