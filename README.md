@@ -27,7 +27,9 @@ Huffman coding is done with the help of the following steps.
 ![image](https://user-images.githubusercontent.com/93857300/216992596-8f214581-782f-4335-a7db-005251e46fa6.png)
 
 5.Remove these two minimum frequencies from Q and add the sum into the list of frequencies (* denote the internal nodes in the figure above).
+
 6.Insert node z into the tree.
+
 7.Repeat steps 3 to 5 for all the characters.
 
 ![image](https://user-images.githubusercontent.com/93857300/216992693-10e863d8-4802-4e6a-b2c0-a1b3a72b2590.png)
